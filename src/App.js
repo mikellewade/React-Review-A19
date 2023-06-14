@@ -1,10 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
 import Entry from './components/Entry';
-import data from './data';
 function App() {
-  // console.log(data)
-  const entry = data[0]
   return (
     <div className="App">
       <nav className="navbar">
@@ -13,7 +10,7 @@ function App() {
           </div>
       </nav>
       <div className='contentContainer'>
-        <Entry entry={entry} /> 
+        <Entry /> 
         <Entry />
         <Entry />
       </div>
