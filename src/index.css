@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +10,166 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0px;
+}
+
+
+.navbar {
+  width: 100%;
+  height: 55px;
+  
+  display: flex;
+  justify-content: center;
+  background-color: #F55A5A;
+  align-items: center;
+  position: relative;
+  text-align: center;
+  /* padding-bottom: 22.5px; */
+  
+}
+
+/* .navbarImg{
+  width: 24px;
+  height: 24px;
+  left: 40%;
+  margin-left: -12px !important;
+  position: absolute;
+} */
+
+.navbarTitle {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 18px;
+  letter-spacing: -0.075em; 
+  /* color: #FFFFFF; */
+  /* background-color: blue; */
+  
+  left: 40%;
+  /* margin-left: 109px !important; */
+  /* position: absolute; */
+  /* padding-bottom: 100px; */
+}
+
+.contentContainer {
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.entryContainer {
+  width: 100%;
+  height: 231px;
+  background-color: transprant;
+  padding: 100px 0px 100px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carosuel {
+  width: 125px;
+  height: 168px;
+  background-color: transparent;
+  
+  margin: 0px 0px 18px 40px;
+  border-radius: 5px;
+}
+
+.infoContainer {
+  width: 326px;
+  height: 168px;
+  background-color: transparent;
+  
+  padding: 19px 19px;
+  
+  
+  
+}
+
+.destination {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10.24px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+
+  color: #2B283A;
+  margin-left: 4px;
+}
+
+.googleLink {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10.24px;
+  line-height: 12px;
+
+  text-decoration-line: underline !important;
+  color: #918E9B !important;
+  margin-left: 12px;
+}
+
+.attraction {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+
+  color: #2B283A;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+.year {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10.24px;
+  line-height: 12px;
+
+  color: #2B283A;
+  margin-bottom: 9px;
+}
+
+.description {
+  width: 326px;
+  height: 11px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10.24px;
+  line-height: 150%;
+
+  color: #2B283A;
+}
+
+.travelImg {
+  width: 1px;
+  height: 168px;
+  border-radius: 5px;
+  background-color: red;
+  
+}
+
+.breaker {
+  width: 50vw;
+  height: 0px;
+  left: 40px;
+  top: 286px;
+  border: 1px solid black;
+  margin-top: 45px;
+  margin-left: 40px;
 }
